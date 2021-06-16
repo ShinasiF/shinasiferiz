@@ -1,0 +1,149 @@
+body {
+    background-color: #ffa26a;
+}
+
+
+.shf_header {
+  
+   position: absolute;
+   margin-left: 190px;
+   margin-top: 100px;
+   color: white;
+   display: block;
+}
+
+
+
+.inframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    background-image: url("https://www.kaspersky.com/content/en-global/images/repository/isc/2017-images/What-is-Cyber-Security.jpg");
+    background-size: cover;
+}
+
+
+.inframe-container iframe {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+#teksti {
+    
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shf_teksti {
+    margin-left: 145px;
+    margin-top: 15px;
+    margin-right: 145px;
+
+}
+.shf_teksti2, .shf_teksti3 {
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+
+
+
+.lista{
+    margin-left: 175px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  h4 {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  @media screen and (max-width: 320px) {
+    .responsive-iframe {
+      max-height: 100px /* you probably need to change that */;
+      background-color: black;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .responsive-iframe {
+      max-height: 200px /* you may need to adjust this too */;
+      background-color: black;
+    }
+  }
+  
+  @media screen and (max-width: 782px) {
+    .responsive-iframe {
+      max-height: 395px;
+      background-color: black;
+    }
+  }
